@@ -1,0 +1,152 @@
+
+
+*{
+    margin: 0px;
+    padding: opx;
+    box-sizing: border-box;
+}
+.image1{
+  width: 95%;
+  height: 63.9%;
+}
+.image2{
+width: 95%;
+height: 63.9%;
+
+}
+
+.image3{
+width: 95%;
+height:73.5%;
+}
+
+.image4{
+  width: 95%;
+  height: 73.5%;
+}
+
+.text-center{
+color: #7f5539;
+
+}
+  
+.sidebar {
+  height: 30%;
+  width: 0;
+  position: fixed;
+  top: 9%;
+  right: 0;
+  background-color: #E6CCB2;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20px;
+}
+
+.sidebar h5 {
+  text-align: center;
+  font-size: large;
+}
+
+.sidebar ul {
+  list-style-type: disc;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 8px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.sidebar ul li a:hover {
+  color: blue; 
+}
+
+
+.content {
+  padding: 20px;
+}
+
+
+.content button {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: #EDE0D4;
+  height: 7%;
+  font-size: large;
+}
+
+
+.table {
+  width: 45%;
+  border-collapse: collapse; 
+  top: 95%;
+  position: absolute;
+  left: 0%;
+  color: #000;
+  font-style: bold;
+  font-size: 13.3px;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+th, td {
+  border: 2px solid #7f5539; 
+  padding: 8px; 
+  text-align: left; 
+}
+
+th {
+  background-color: #E6CCB2; 
+}
+.row {
+  display: flex;
+  flex-wrap: wrap; 
+  margin: 0 -15px; 
+  border-top-style: #7f5539;
+}
+
+.col {
+  padding: 0 15px; 
+  flex: 1; 
+}
+
+.centered-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  color:#7f5539;
+  font-family:"playfair display"
+}
+.paragraph{
+  color: #412309;
+  font-size: 20px;
+  font-family:"playfair display"
+}
+.paragraph1{
+  color: #412309;
+  font-family:"playfair display"
+}
+.form-subscribe{
+  position: center;
+}
+
+div.container1{
+  text-align: center;
+  font-family:"playfair display";
+  color: #412309;
+}
+ol.myUL{
+  display: inline-block;
+  text-align: left;
+}
+.navbar-brand, .nav-item{
+  font-family:"playfair display";
+}

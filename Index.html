@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment</title>
+  <link rel="stylesheet" href="stylin navbar.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+  <style>
+    body{
+      background-color: #ede0d4;
+    }
+
+    .navbar-custom {
+      background-color: #7f5539; 
+    }
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-brand {
+      color: #ffffff !important; 
+    }
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-brand:hover {
+    color: #ddb892 !important; 
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <a class="navbar-brand" href="index.html">BarChart Palate</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav ml-auto"> 
+        <li class="nav-item"> 
+            <a class="nav-link" href="Analysis 1.html">Analysis 1</a> 
+        </li> 
+        <li class="nav-item"> 
+            <a class="nav-link" href="Analysis 2.html">Analysis 2</a> 
+        </li> 
+        <li class="nav-item"> 
+          <a href="subscribe.html" class="btn btn-success" role="button">Subscribe!</a> 
+        </li> 
+      </ul>
+    </div>
+  </nav><br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="header">
+         <h1><u>Food Analysis in the USA</u></h1><br>
+        </div>
+        <div class="paragraph">
+          <p>BarChart Palate aims to analyze the different food consumptions in the USA of snacks, cookies, bars, and crackers.</p><br>
+        </div>
+        <div class="header">
+          <h2><u>Who We Are</u></h2><br>
+        </div>
+        <div class="paragraph">
+          <p>We are three management students studying at Mcgill. This website created by us shows a variety of graphs containing data of the different food consumptions from 4 locations in the USA such as Boston, Los Angeles, San Diego, and New York from the years 2022 & 2023.  In which we discuss the quantity demanded by location and highest-lowest sales by product.</p><br><br>
+        </div>
+
+        <div class="table">
+          <div class="col text-center">
+            <table class="table-light">
+              <head>
+                <tr>
+                  <th>Location</th>
+                  <th>Category</th>
+                  <th>Product per Category</th>
+                  <th>Analysis 1</th>
+                  <th>Analysis 2</th>
+                </tr>
+              </head>
+              <body>
+                <tr>
+                  <td>Boston</td>
+                  <td>Snacks</td>
+                  <td>Potato Chips, Pretzles</td>
+                  <td>Graph on quantity of food sold per city in 2022</td>
+                  <td>Graph on the total sales of each of the food catgeories in 2022</td>
+                </tr>
+                <tr>
+                  <td>Los Angeles</td>
+                  <td>Cookies</td>
+                  <td>Arrowroot, Chocolate Chip, Oatmeal Raisin</td>
+                  <td>Graph on quantity of food sold per city in 2023</td>
+                  <td>Graph on the total sales of each of the food catgeories in 2023</td>
+                </tr>
+                <tr>
+                  <td>San Diego</td>
+                  <td>Bars</td>
+                  <td>Banana, Bran, Carrot</td>
+                  <td>None</td>
+                  <td>Graph on total sales of products by category in 2022</td>
+                </tr>
+                <tr>
+                  <td>New York</td>
+                  <td>Crackers</td>
+                  <td>Whole Wheat</td>
+                  <td>None</td>
+                  <td>Graph on total sales of products by category in 2023</td>
+                </tr>
+              </body>
+            </table>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  
+  <div class="sidebar" id="sidebar">
+    <h5>Sidebar</h5>
+    <ul>
+      <li><a href="https://www.statista.com/outlook/cmo/food/canada" target="_blank">Statista for more Food Analysis</a></li>
+      <li><a href="https://brizodata.com/en/understanding-food-data-analysis-in-the-food-industry/" target="_blank">Brizodata: Understand Food Analysis</a></li>
+      <li><a href="https://ourworldindata.org/food-supply" target="_blank">Our World In Data: Food Consumption in the World</a></li>
+      <li><a href="https://sallysbakingaddiction.com/" target="_blank">Sally's Baking Addiction: Recipes if we made you crave goodies!</a></li>
+    </ul>
+  </div>
+  
+  <div class="content">
+    <button onclick="toggleSidebar()">Sidebar</button>
+  </div>
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
